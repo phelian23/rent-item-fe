@@ -49,7 +49,7 @@ const AddScooter = () => {
       <div className="auth-form">
         <div className="auth-cont">
           <AiOutlineHome className="auth-icon d-lg-none" onClick={goHome} />
-          <h1 className="auth-cont-h1">Add Scooter</h1>
+          <h1 className="auth-cont-h1">Add New Scooter</h1>
           <form onSubmit={handleAddSubmit}>
             <div className="form-group my-3">
               <label htmlFor="exampleInputName">Name</label>
