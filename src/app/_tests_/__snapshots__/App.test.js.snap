@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div>
+  <div
+    className="p-0"
+  >
+    <div>
+      <nav
+        className="d-block fixed-lg-top navbar navbar-expand-md navbar-light bg-light"
+      >
+        <div
+          className="d-lg-flex sidebar container"
+          id="responsive-navbar-nav"
+        >
+          <a
+            className="mr-auto mr-lg-3 ml-3 ml-lg-0 nav-logo-cont navbar-brand"
+            href="/"
+          >
+            <img
+              alt=""
+              className="d-inline-block align-top"
+              height="40px"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzGIxlIopL2Rkz2W31izyQcASgFiW-bAHDEw&usqp=CAU"
+              width="40px"
+            />
+             
+            Scooter
+          </a>
+          <div
+            className="navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <a
+              className="nav-link"
+              data-rr-ui-event-key="/signin"
+              disabled={false}
+              href="/signin"
+              onClick={[Function]}
+            >
+              Login
+            </a>
+            <a
+              className="nav-link"
+              data-rr-ui-event-key="/signup"
+              disabled={false}
+              href="/signup"
+              onClick={[Function]}
+            >
+              Sign Up
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div
+      className="main-navigation overlay"
+    >
+      <div
+        className="tab-container d-flex justify-content-between align-item-center p-3"
+      >
+        <div
+          className="menu-icon d-lg-none"
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"
+            />
+          </svg>
+        </div>
+        <div
+          className="d-lg-none"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="scoot-list-cont"
+      >
+        <div
+          className="text-center p-lg-3 header-det"
+        >
+          <h1>
+            Scooter List
+          </h1>
+        </div>
+        <div
+          className="list-wrapper"
+        >
+          <ul
+            className="d-flex list-con"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

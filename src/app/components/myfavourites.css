@@ -1,0 +1,28 @@
+/*
+.header-container {
+    display:flex;
+}
+
+.card-container {
+
+}
+
+.card-description {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+
+.card-img-top {
+
+} */
+
+@media (min-width: 920px) {
+  .card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+  }
+}

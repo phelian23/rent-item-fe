@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScooterList renders correctly 1`] = `
+<div
+  className="scoot-list-cont"
+>
+  <div
+    className="text-center p-lg-3 header-det"
+  >
+    <h1>
+      Scooter List
+    </h1>
+  </div>
+  <div
+    className="list-wrapper"
+  >
+    <ul
+      className="d-flex list-con"
+    />
+  </div>
+</div>
+`;

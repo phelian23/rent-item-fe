@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteScooter renders correctly 1`] = `
+<div>
+  <div
+    className="text-center p-3 header-det"
+  >
+    <h1>
+      Scooter List
+    </h1>
+  </div>
+  <div
+    className="list-wrapper"
+  >
+    <ul
+      className="d-flex list-con"
+    />
+  </div>
+</div>
+`;

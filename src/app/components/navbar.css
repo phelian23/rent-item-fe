@@ -1,0 +1,15 @@
+.icon-container {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .search-icon {
+    color: white;
+    margin-left: 14px;
+    margin-top: 12px;
+  }
+
+  .icon-container {
+    display: block;
+  }
+}

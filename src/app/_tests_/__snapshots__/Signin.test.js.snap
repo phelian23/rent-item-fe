@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signin renders correctly 1`] = `
+<div
+  className="auth-con"
+>
+  <div
+    className="auth-form"
+  >
+    <div
+      className="auth-cont"
+    >
+      <h1>
+        Sign In
+      </h1>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group m-3"
+        >
+          <label
+            htmlFor="exampleInputEmail1"
+          >
+            Email
+          </label>
+          <input
+            className="form-input1"
+            id="email"
+            name="email"
+            onChange={[Function]}
+            placeholder="Enter email"
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group mb-3 mx-3 mx-lg-0"
+        >
+          <label
+            htmlFor="password"
+          >
+            Password
+          </label>
+          <input
+            className="form-input1"
+            id="password"
+            name="password"
+            onChange={[Function]}
+            placeholder="Password"
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          className="form-btn btn btn-primary"
+          disabled={false}
+          type="submit"
+        >
+          Sign In
+        </button>
+      </form>
+      <p>
+        Don't have an account?
+      </p>
+      <a
+        className="form-btn btn btn-primary"
+        disabled={false}
+        href="/signup"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        Sign Up
+      </a>
+    </div>
+  </div>
+</div>
+`;
