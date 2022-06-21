@@ -40,22 +40,11 @@ export const signIn = (data) => (dispatch) => {
 
 export const resetPassword = (data) => async (dispatch) => {
   const response = await hitApiWithResetPassword(data);
-  try {
     dispatch({ type: Constants.RESET_PASSWORD_SUCCESS, payload: response });
-  } catch (error) {
-    dispatch({
-      type: Constants.RESET_PASSWORD_FAILURE,
-      payload: error.response,
-    });
-  }
 };
 
 export const signOut = () => async (dispatch) => {
   const response = await hitApiWithSignOut();
-  try {
     dispatch({ type: Constants.SIGN_OUT_SUCCESS, payload: response });
     clearSession();
-  } catch (error) {
-    dispatch({ type: Constants.SIGN_OUT_FAILURE, payload: error });
-  }
 };
